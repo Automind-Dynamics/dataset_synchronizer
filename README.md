@@ -16,7 +16,7 @@ This codebase is currently setup to work with Husky ROS2 Bags containing Compres
 
     ros2 launch husky_localization husky_localization_local.launch.py
 
-**Terminal 3 (Synchronizer Node)**
+**Terminal 3 (Synchronizer Node + Uncompress nodes)**
 
     ros2 launch synced_sensor_pub synced_sensors.launch.py
 Outputs to be used:
